@@ -1,4 +1,3 @@
-
 input {
     background-color: #99e3e3dc;
     border: none;
@@ -30,3 +29,7 @@ p, input {
 .two {
     margin-bottom: 30px;
 }
+
+p:hover {
+    color: rgba(0, 0, 0, 0.3);
+} 
