@@ -1,3 +1,20 @@
+
+input {
+    background-color: #99e3e3dc;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.584);
+}
+p {
+    color: rgba(0, 0, 0, 0.453);
+}
+p, input {
+    transform: translateY(210px);
+    margin-left: 25px;
+    font-size: 60px;
+}
+
 .three, .thour, .five {
     /* position: absolute; */
     font-size: 25px;

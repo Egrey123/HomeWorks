@@ -1,0 +1,23 @@
+.shadow {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.2);
+}
+.ones {
+    transform: translateY(332px) translateX(70px);
+}
+.twos {
+    transform: translateY(500px) translateX(70px);
+}
+.threes {
+    font-size: 30px;
+    transform: translateY(625px) translateX(60px);
+}
+
+.fives { /*Я знаю про это и да, я так сделал специально, мне так проще*/
+    font-size: 30px;
+    transform: translateY(625px) translateX(283px);
+}
+.thours {
+    font-size: 30px;
+    transform: translateY(625px) translateX(576px);
+}
