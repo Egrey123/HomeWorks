@@ -1,0 +1,15 @@
+.three, .thour, .five {
+    /* position: absolute; */
+    font-size: 25px;
+    width: 200px;
+}
+.thour {
+    transform: translateX(500px) translateY(150px);
+    width: 230px;
+}
+.five {
+    width: 230px;
+}
+.two {
+    margin-bottom: 30px;
+}

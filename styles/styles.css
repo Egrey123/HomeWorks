@@ -6,6 +6,7 @@ body {
     position: relative;
 }
 .TheLine {
+    font-size: 25px;
     background-color: orange;
     position: absolute;
     text-align: center;
@@ -39,5 +40,7 @@ p {
     color: rgba(0, 0, 0, 0.453);
 }
 p, input {
-    transform: translateY(250px);
+    transform: translateY(210px);
+    margin-left: 25px;
+    font-size: 60px;
 }
