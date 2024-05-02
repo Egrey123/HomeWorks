@@ -31,6 +31,19 @@ img {
     transform: translateX(1100px) translateY(292px);
     transition: all 2s ease-in-out;
 }
+button {
+    position: absolute;
+    font-size: 50px;
+    color: rgb(83, 208, 208);
+    width: 730px;
+    height: 150px;
+    background-color: #7ca0ad;
+    transform: translateX(-230px) translateY(200px);
+    /* border: none; */
+    border: 3px solid rgba(131, 128, 152, 0.2);
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
 
 .TheLine:hover {
     background-color: rgba(255, 166, 0, 0.8);
@@ -38,4 +51,10 @@ img {
 }
 img:hover {
     transform: translateX(1000px) translateY(198px) scaleY(1.4) scaleX(1.4);
+}
+button:hover {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgb(50, 121, 121);
+    border-radius: 25px;
+    background-color: #90becf;
 }
