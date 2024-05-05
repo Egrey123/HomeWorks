@@ -42,7 +42,7 @@ button {
     /* border: none; */
     border: 3px solid rgba(131, 128, 152, 0.2);
     transition: all 0.3s ease;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
 
 .TheLine:hover {
