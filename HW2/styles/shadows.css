@@ -1,0 +1,21 @@
+.text {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    transform: translateY(-100px);
+}
+.text:nth-child(2) {
+    transform: translateY(-700px) translateX(10px);
+}
+.text:nth-child(3) {
+
+    transform: translateY(-700px) translateX(325px);
+}
+.text:nth-child(4) {
+
+    transform: translateY(-700px) translateX(640px);
+}
+.text:nth-child(5) {
+
+    transform: translateY(-200px) translateX(10px);
+}

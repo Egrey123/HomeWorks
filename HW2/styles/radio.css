@@ -1,0 +1,31 @@
+.bot {
+    width: 12px; height: 12px;
+    border: 1px solid rgba(35, 186, 35, 0.74);
+    border-radius: 50%;
+}
+.mark {
+    width: 8px; height: 8px;
+    border: 1px solid rgba(27, 206, 27, 0.733);
+    background-color: rgba(28, 223, 28, 0.926);
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(1px) translateY(1px);
+    transition: all 0.5s ease;
+}
+.bot p {
+    /* position: absolute; */
+    transform: translateY(-20px) translateX(15px);
+}
+.tw .mark {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.tw:hover .mark {
+    background-color: rgba(28, 223, 28, 0.926);
+}
+.on:hover .mark {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+

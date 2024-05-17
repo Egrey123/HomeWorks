@@ -1,0 +1,63 @@
+.checkboxTrue, .checkboxFalse {
+    width: 30px;
+    height: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(255, 0, 0);
+}
+.checkboxTrue {
+    border: 1px solid rgba(28, 166, 28, 0.822);
+}
+.checkboxTrue p, .checkboxFalse p {
+    position: absolute;
+    transform: translateX(35px) translateY(-22px);
+}
+.Trues {
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    transform: translateY(1px) translateX(1px);
+    border-radius: 5px;
+    border: 1px solid rgba(12, 112, 12, 0.859);
+    background-color: rgba(18, 168, 18, 0.916);
+    transition: all 0.5s ease;
+}
+.Falses {
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    transform: translateY(1px) translateX(15px);
+    border-radius: 5px;
+    border: 1px solid rgba(116, 11, 11, 0.859);
+    background-color: rgba(192, 39, 39, 0.855);
+    transition: all 0.5s ease;
+}
+
+
+@keyframes play {
+    50% {
+        width: 6px;
+    }
+    100% {
+        width: 12px;
+    }
+}
+.checkboxTrue:hover .Trues{
+    animation: play 0.5s ease;
+    transform: translateY(1px) translateX(15px) rotateY(180deg);
+    border-radius: 5px;
+    border: 1px solid rgba(116, 11, 11, 0.859);
+    background-color: rgba(192, 39, 39, 0.855);
+
+}
+.checkboxFalse:hover .Falses{
+    animation: play 0.5s ease;
+    transform: translateY(1px) translateX(1px) rotateY(180deg);
+    border-radius: 5px;
+    border: 1px solid rgba(12, 112, 12, 0.859);
+    background-color: rgba(18, 168, 18, 0.916);
+
+}
+.checkboxTrue:hover{
+    border: 1px solid rgb(255, 0, 0);
+
+}
