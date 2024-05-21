@@ -1,0 +1,59 @@
+.per {
+    transform: translateX(530px);
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    form {
+        width: 550px;
+    }
+    .names, .options {
+        transform: translateY(100px);
+    }
+    .per {
+        transform: translateY(250px) translateX(0px);
+    }
+    .checkboxes {
+        transform: translateY(150px) translateX(-150px);
+    }
+    button {
+        transform: translateY(300px) translateX(340px);
+    }
+    
+
+    .shadows p:nth-child(5) {
+        transform: translateX(0px) translateY(290px);
+    }
+    .shadows p:nth-child(6) {
+        transform: translateX(160px) translateY(290px);
+    }
+    .shadows p:nth-child(7) {
+        transform: translateX(160px) translateY(350px);
+    }
+}
+@media (max-width: 600px){
+    form {
+        width: 450px;
+    }
+    .names, .options {
+        transform: translateY(100px);
+    }
+    .per {
+        transform: translateY(250px) translateX(0px);
+    }
+    .checkboxes {
+        transform: translateY(150px) translateX(-150px);
+    }
+    button {
+        transform: translateY(300px) translateX(100px);
+    }
+    
+
+    .shadows p:nth-child(5) {
+        transform: translateX(0px) translateY(290px);
+    }
+    .shadows p:nth-child(6) {
+        transform: translateX(160px) translateY(290px);
+    }
+    .shadows p:nth-child(7) {
+        transform: translateX(160px) translateY(350px);
+    }
+}

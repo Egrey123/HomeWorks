@@ -1,0 +1,37 @@
+body {
+    position: relative;
+}
+.shadows {
+    width: auto;
+    position: absolute;
+    transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+.shadows p{
+    width: 400px;
+    font-size: 36px;
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+.shadows p:nth-child(1) {
+    transform: translateX(80px) translateY(30px);
+}
+.shadows p:nth-child(2) {
+    transform: translateX(80px) translateY(100px);
+}
+.shadows p:nth-child(3) {
+    transform: translateX(73px) translateY(170px);
+}
+.shadows p:nth-child(4) {
+    transform: translateX(230px) translateY(170px);
+}
+.shadows p:nth-child(5) {
+    transform: translateX(500px) translateY(30px);
+}
+.shadows p:nth-child(6) {
+    transform: translateX(660px) translateY(30px);
+}
+.shadows p:nth-child(7) {
+    transform: translateX(660px) translateY(100px);
+}

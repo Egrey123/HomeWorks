@@ -1,0 +1,46 @@
+div {
+    /* background-color: black; */
+    transform: translateY(50px);
+    /* border: 3px solid black; */
+}
+.username input, .email input, .password input {
+    transform: translateX(64px);
+    transition: all 0.5s ease;
+}
+.password input {
+    width: 148px;
+    transition: all 0.5s ease;
+}
+
+.options {
+    transform: translateX(500px) translateY(-150px);
+    transition: all 0.5s ease;
+}
+.options select, .options input {
+    width: 150px;
+}
+select {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.checkboxes{
+    position: absolute;
+    height: 32px;
+    transform: translateX(-120px);
+    transition: all 0.5s ease;
+}
+.checkboxes p {
+    width: 300px;
+    transform: translateX(170px) translateY(-32px);
+    font-size: 14px;
+}
+
+
+
+.names {
+    transform: translateX(500px) translateY(-150px);
+    transition: all 0.5s ease;
+}
+.names input {
+    width: 148px;
+}

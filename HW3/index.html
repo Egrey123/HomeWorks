@@ -4,9 +4,69 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/styles.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="styles/inputspos.css">
+        <link rel="stylesheet" href="styles/shadows.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <title>Третье задание</title>
     </head>
     <body>
-        
+        <form action="https://github.com/Egrey123/HomeWorks">
+            
+        <span class="shadows">
+            <p>Username</p>
+            <p>Email address</p>
+            <p>Password</p>
+            <p>Confirm</p>
+            <p>First name</p>
+            <p>Last name</p>
+            <p>mm/dd/yy</p>
+        </span>
+        <header>
+                <h2>Registration form</h2> <h2 class="per">Personal details</h2>
+                <div class="username">
+                    <img src="img's/username.png">
+                    <input type="text">
+                </div>
+                <div class="email">
+                    <img src="img's/email.png">
+                    <input type="email">
+                </div>
+                <div class="password">
+                    <img src="img's/pswd.png">
+                    <span>
+                        <input type="password">
+                        <input type="password">
+                    </span>
+                </div>
+                <span id="names">
+                    <div class="names">
+                        <span>
+                            <input type="text" class="fisrtname">
+                            <input type="text" class="lastname">
+                        </span>
+                    </div>
+                    <div class="options">
+                        <span>
+                            <select>
+                                <option value="Male">Male</option>
+                                <option value="Male">Female</option>
+                            </select>
+                            <input type="text">
+                        </span>
+                    </div>
+                </span>
+                <div class="checkboxes">
+                    <span>
+                        <input type="checkbox" style="height: 16px;">
+                        <p>I want to receive news and special offers</p>
+                    </span>
+                    <span>
+                        <input type="checkbox" style="height: 16px;">
+                        <p>I agree with the Terms and Conditions</p>
+                    </span>
+                </div>
+                <button>Submit</button>
+            </header>
+        </form>
     </body>
 </html>

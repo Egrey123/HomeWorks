@@ -1,0 +1,55 @@
+
+
+form {
+    position: relative;
+    border: 2px solid black;
+    background-color: rgba(235, 246, 255, 0.87);
+    width: 900px;
+    height: 800px;
+    padding-left: 50px;
+    transition: all 0.5s ease;
+}
+
+h2 {
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+input, select {
+    background-color: rgba(235, 246, 255, 0.87);
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 300px;
+    height: 64px;
+    font-size: 42px;
+    transition: all 0.5s ease;
+}
+select {
+    background-color: rgba(235, 246, 255, 0.87);
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    transition: all 0.5s ease;
+}
+img {
+    position: absolute;
+    width: 64px; height: 64px;
+    transition: all 0.5s ease;
+}
+
+button {
+    position: absolute;
+    background-color: rgba(0, 139, 139, 0.63);
+    width: 200px;
+    height: 50px;
+    transform: translateY(300px) translateX(600px);
+    color: white;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 139, 139, 0.785);
+}
